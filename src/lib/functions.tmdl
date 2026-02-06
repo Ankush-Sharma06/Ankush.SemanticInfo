@@ -1,5 +1,3 @@
-createOrReplace
-
 	/// Lists all DAX calculations: Measures, Calculated Columns, Calculated Tables, and Calculation Items.
 	/// Indicators: 👁‍🗨 = Hidden, ❌ = Invalid Measure.
 	function 'Ankush.SemanticInfo.AllCalc.Describe' = ```
