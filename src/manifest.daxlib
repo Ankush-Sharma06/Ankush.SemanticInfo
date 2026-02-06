@@ -6,5 +6,6 @@
   "description": "A comprehensive toolkit for auditing and debugging Power BI semantic models",
   "tags": "DAX,UDF",
   "repositoryUrl": "https://github.com/daxlib/daxlib/tree/main/packages/a/ankush.semanticinfo",
-  "icon": "/icon.png"
+  "icon": "/icon.png",
+  "readme": "/README.md"
 }
