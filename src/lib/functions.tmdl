@@ -692,7 +692,6 @@ function 'Ankush.SemanticInfo.TableNames.Display' = ```
 /// Indicators: 👁️‍🗨 = Hidden, ƒ𝑥 = Calculated Column.
 function 'Ankush.SemanticInfo.Tables.Describe' = ```
 		(Table_Name : Table) =>
-			// var Table_Name = ALL(sales_report_view)
 			VAR CsvString = TOCSV(Table_Name)
 			VAR StartPos = FIND("'", CsvString) + 1
 			VAR EndPos = FIND("'[", CsvString)
